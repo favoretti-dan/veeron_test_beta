@@ -1,0 +1,97 @@
+
+
+
+a{
+    text-decoration: none;   
+}
+
+
+.ct_topbar{
+    /* background-color: #081226; */
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    height: 3.4rem;
+    width: 90%;
+    z-index: 5;
+    margin-left: 5rem;
+    border-radius: 6px;
+    /* border-bottom: 1px solid var(--colorBack1); */
+    /* padding-top: 0.5rem; */
+    top: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.ct_icon_logo{
+    /* background-color: violet; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 2rem;
+}
+
+.ct_links_topbar{
+    /* background-color: tomato; */
+    display: flex;
+    height: 100%;
+    position: relative;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-left:auto;
+    margin-right: 6rem;
+    font-weight: 500;
+}
+.links_box{
+    height: 100%;
+    color: var(--colorTxt1);
+    /* border: 2px solid var(--colorBack1); */
+    padding: 0.3rem;
+    margin-right: 1rem;
+    /* border-radius: 4px; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.links_box:hover{
+    border-bottom: solid 2px var(--colorBack1);
+}
+
+
+.ct_prince_infos{
+    display: none;
+    position: fixed;
+    background-color: tomato;
+    width: 100%;
+    top: 4rem;
+    justify-content: end;
+    align-items: center;
+    height: 6rem;
+}
+.ct_box_infos_p{
+    background-color: yellowgreen;
+    height: 100%;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+}
+.group_links{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+    left: 2rem;
+    position: relative;
+    justify-content: start;
+    align-items: center;
+}
+.link_topline{
+    display: flex;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    left: 2rem;
+    position: relative;
+}
